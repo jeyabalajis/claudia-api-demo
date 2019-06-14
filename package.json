@@ -1,0 +1,22 @@
+{
+  "name": "web-api-test",
+  "description": "Simple example that shows how to create WEB apis",
+  "private": true,
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "start": "claudia create --name claudia-api-demo --region ap-south-1 --api-module web --profile examindia",
+    "deploy": "claudia update"
+  },
+  "devDependencies": {
+    "claudia": "^5"
+  },
+  "dependencies": {
+    "claudia-api-builder": "^4",
+    "superb": "^3.0.0"
+  },
+  "version": "1.0.0",
+  "main": "web.js",
+  "license": "MIT"
+}
