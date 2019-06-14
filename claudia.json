@@ -1,11 +1,11 @@
 {
   "lambda": {
-    "role": "claudia-api-demo-executor",
-    "name": "claudia-api-demo",
+    "role": "claudia-api-demos-executor",
+    "name": "claudia-api-demos",
     "region": "ap-south-1"
   },
   "api": {
-    "id": "hdmiumu37g",
+    "id": "ijkegzcnt5",
     "module": "web"
   }
 }
