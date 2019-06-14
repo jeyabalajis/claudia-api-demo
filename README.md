@@ -9,4 +9,7 @@ npm install
 
 ## Deployment
 
-Review the start script under package.json and modify the name of the AWS project and profile (which holds AWS credentials)
+1. Review the start script under package.json and modify the name of the AWS project and profile (which holds AWS credentials)
+2. Run the following command
+
+`npm run start`
